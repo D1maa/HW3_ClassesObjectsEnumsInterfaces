@@ -4,11 +4,12 @@ public class Main {
 
     public static void main(String[] args) {
 
-        /*Circle circle = new Circle(-5);
+        Circle circle = new Circle(-5);
         circle.setRadius(-5);
-        System.out.println("Square of circle = " + circle.getSquare());*/
+        circle.setRadius(5);
+        System.out.println("Square of circle = " + circle.getSquare());
 
-        /*new SecondTask();
+        new SecondTask();
         new SecondTask();
         new SecondTask();
         new SecondTask();
@@ -17,7 +18,7 @@ public class Main {
         new SecondTask();
         new SecondTask();
 
-        System.out.println("\nCount of objects of the class \"Second Task\" = " + SecondTask.getCount());*/
+        System.out.println("\nCount of objects of the class \"Second Task\" = " + SecondTask.getCount());
 
         Car car = new Car("Porsche 911");
 
