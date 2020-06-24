@@ -1,5 +1,9 @@
 package com.lysachenko;
 
+import com.lysachenko.car.Car;
+import com.lysachenko.circle.Circle;
+import com.lysachenko.slefcount.SelfCount;
+
 public class Main {
 
     public static void main(String[] args) {
