@@ -1,4 +1,4 @@
-package com.lysachenko;
+package com.lysachenko.tasks;
 
 public class SelfCount {
 

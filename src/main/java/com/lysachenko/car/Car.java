@@ -1,4 +1,4 @@
-package com.lysachenko;
+package com.lysachenko.tasks;
 
 public class Car {
 
@@ -12,7 +12,6 @@ public class Car {
     }
 
     public void start() {
-
         if (start) {
             System.out.println("Car is already running!");
         } else {
@@ -22,7 +21,6 @@ public class Car {
     }
 
     public void stop() {
-
         if (!start) {
             System.out.println("Car engine is already stopped!");
         } else {
@@ -40,38 +38,29 @@ public class Car {
     }
 
     public void speed(double wantedSpeed, double acceleration) {
-
         if (acceleration > 0 && wantedSpeed > 0) {
-
             if (start) {
-
                 if (this.speed != wantedSpeed) {
-
                     if (this.speed == 0) {
                         System.out.println("Car is stop");
                     }
-
                     if (this.speed < wantedSpeed) {
                         speedUp(wantedSpeed, acceleration);
                     } else {
                         speedDown(wantedSpeed, acceleration);
                     }
-
                 } else {
                     System.out.println("Speed car is " + this.speed + " km/h now.");
                 }
-
             } else {
                 System.out.println("Start the engine, please!");
             }
-
         } else {
             System.out.println("Enter correct speed or acceleration!");
         }
     }
 
     private void speedUp(double wantedSpeed, double acceleration) {
-
         System.out.println("Car speeds up to - " + wantedSpeed + " km/h with an acceleration of " + acceleration + " km/h^2:");
 
         while (this.speed != wantedSpeed) {
@@ -85,7 +74,6 @@ public class Car {
     }
 
     private void speedDown(double wantedSpeed, double acceleration) {
-
         System.out.println("Car speeds down to - " + wantedSpeed + " km/h with an acceleration of -" + acceleration + " km/h^2:");
 
         while (this.speed != wantedSpeed) {
