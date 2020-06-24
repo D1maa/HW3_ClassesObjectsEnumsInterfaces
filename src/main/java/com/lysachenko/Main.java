@@ -9,16 +9,16 @@ public class Main {
         circle.setRadius(5);
         System.out.println("Square of circle = " + circle.getSquare());
 
-        new SecondTask();
-        new SecondTask();
-        new SecondTask();
-        new SecondTask();
-        new SecondTask();
-        new SecondTask();
-        new SecondTask();
-        new SecondTask();
+        new SelfCount();
+        new SelfCount();
+        new SelfCount();
+        new SelfCount();
+        new SelfCount();
+        new SelfCount();
+        new SelfCount();
+        new SelfCount();
 
-        System.out.println("\nCount of objects of the class \"Second Task\" = " + SecondTask.getCount());
+        System.out.println("\nCount of objects of the class \"Second Task\" = " + SelfCount.getCount());
 
         Car car = new Car("Porsche 911");
 
@@ -30,5 +30,4 @@ public class Main {
         car.stop();
 
     }
-
 }

@@ -1,10 +1,10 @@
 package com.lysachenko;
 
-public class SecondTask {
+public class SelfCount {
 
     private static int count;
 
-    public SecondTask() {
+    public SelfCount() {
         count++;
     }
 
